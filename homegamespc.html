@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePageGame</title>
+    <style>
+        *{
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(254, 246, 235);
+        }
+        #intro {
+            width: 24vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            margin-left: 70px;
+            margin-top: 20vh;
+            background-color:blanchedalmond;
+        }
+        #intro h1{
+            font-size:50px;
+            /* background-color:rgb(247, 222, 132); */
+            color: rgb(208, 136, 68);
+        }
+        #intro h2{
+            font-size: 30px;
+            /* background-color:rgb(247, 222, 132); */
+            color: rgb(129, 103, 9);
+        }
+        #intro h3{
+            font-size: 20px;
+            /* background-color:rgb(247, 222, 132); */
+            color: rgb(150, 150, 13);
+        }
+        #start{
+            background-color:rgb(247, 222, 132);
+            color: rgb(154, 68, 208);
+            font-size: 20px;
+            
+        }
+        #big{
+            display: flex;
+            
+        }
+        #img111{
+            width: 30vw;
+            height: 55vh;
+            margin-top: 20vh;
+            margin-left: 10px;
+        }
+        #img112{
+            width: 30vw;
+            height: 55vh;
+            margin-top: 20vh;
+            margin-left: 70px;
+
+        }
+        @media screen and (max-width: 800px) {
+            #big{
+                flex-direction: column;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #img111{
+            width: 100vw;
+            height: 40vh;
+            margin-top: 0vh;
+            margin-left: 0px;
+        }
+
+        #intro {
+            width: 100vw;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+            margin-left: 0px;
+            margin-top: 0vh;
+            background-color:blanchedalmond;
+            background-image: url('https://media.tenor.com/G9U2QlP6pZkAAAAd/kakashi-fortnite.gif');
+            background-size: cover;
+        }
+        #intro h1{
+            color: orange;
+        }
+        #intro h3{
+            color: rgb(255, 255, 255);
+        }
+        #intro h2{
+            color: rgb(0, 255, 119);
+        }
+        #img112{
+            width: 100vw;
+            height: 50vh;
+            margin-top: 0vh;
+            margin-left: 0px;
+            display: none;
+
+        }
+
+}
+    </style>
+</head>
+<body>
+    
+    <!-- <audio  autoplay loop>
+        <source src="Monkeys-Spinning-Monkeys.mp3" type="audio/mp3">
+    </audio> -->
+
+    <!-- <audio src="Monkeys-Spinning-Monkeys.mp3" autoplay loop></audio>. -->
+
+    <div id="big">
+        <img id ="img111" src="https://media.tenor.com/NuJegnXdEmkAAAAC/dragon-ball-z-rock-paper-scissors.gif" alt="">
+        <div id="intro">
+            <h1>Welcome</h1>
+            <h3>to</h3>
+            <h2>The GAME</h2>
+            <button id="start" onclick="window.location.href='gamerps.html';
+            audio ">
+                START
+            </button>
+         </div>
+         <img id ="img112" src="https://media.tenor.com/G9U2QlP6pZkAAAAd/kakashi-fortnite.gif" alt="">
+    </div>
+     
+</body>
+</html>

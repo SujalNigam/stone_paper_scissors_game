@@ -1,0 +1,19 @@
+
+#r{
+    width: 50px;
+    background-size: cover;
+}
+#p{
+    width: 50px;
+    background-size: cover;
+}
+#s{
+    width: 50px;
+    background-size: cover;
+}
+.btn{
+    margin: 22px;
+}
+.cen{
+    margin-top: 0px;
+}
